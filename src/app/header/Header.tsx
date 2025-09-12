@@ -31,7 +31,7 @@ export const Header = () => {
       className={styles.wppTopBar}
       value={topbarValue}
       navigation={navigation}
-      onWppChange={e => navigate(`/${e.detail.value}`)}
+      onWppChange={(e: CustomEvent) => navigate(`/${e.detail.value}`)}
     >
       <div slot="app" className={styles.wppTopBarLogo}>
         <img src={logoUrl} alt="logo" />

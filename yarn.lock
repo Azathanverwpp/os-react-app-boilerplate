@@ -2383,6 +2383,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mixmark-io/domino@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@mixmark-io/domino@npm:2.2.0"
+  checksum: 547af4a8f74cb8e1f2f86e84dc968e7a722522d4748d8a1c9d30c5d1ce6a190ec400866338cc1f717b31beabed6e61c44edf17db5cf380317b63a1e7f253080f
+  languageName: node
+  linkType: hard
+
 "@mrmlnc/readdir-enhanced@npm:^2.2.1":
   version: 2.2.1
   resolution: "@mrmlnc/readdir-enhanced@npm:2.2.1"
@@ -3570,22 +3577,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wppopen/components-library-react@npm:2.18.0":
-  version: 2.18.0
-  resolution: "@wppopen/components-library-react@npm:2.18.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcomponents-library-react%2F2.18.0%2F13d9756a504367951c28a7ab9aca4dbe65e062e4"
+"@wppopen/components-library-react@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@wppopen/components-library-react@npm:3.1.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcomponents-library-react%2F3.1.1%2Fd4aa48de6da29cd8a2384e7cce89c2f3e28d6160"
   dependencies:
     tslib: 2.4.0
   peerDependencies:
-    "@wppopen/components-library": 2.18.0
+    "@wppopen/components-library": 3.1.1
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-  checksum: b9433f0013a62b83aa1f978847afff6aac4802095fed73e3ac298f258283bc4298cab6824b304cdbc4fe92f9754d05bb84ae9d28ef3752fa68b0ce5822729ccc
+  checksum: bbf19d1b7b85a0690666d3766afb64fdb25c0982141cbd1faff8a1615c69c10e52a515f92d98f545390ff4ea1b1f5af2c905f7326d15ea026c47f42ede04fd8a
   languageName: node
   linkType: hard
 
-"@wppopen/components-library@npm:2.18.0":
-  version: 2.18.0
-  resolution: "@wppopen/components-library@npm:2.18.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcomponents-library%2F2.18.0%2Fe7d2210cc2671996931b1848c7a8b301c319fa28"
+"@wppopen/components-library@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@wppopen/components-library@npm:3.1.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcomponents-library%2F3.1.1%2F44c462b944251c2c1c63b043daa403dfee73e29b"
   dependencies:
     "@floating-ui/dom": ^1.6.2
     "@maskito/core": 2.0.0
@@ -3593,33 +3600,37 @@ __metadata:
     "@maskito/phone": 2.0.0
     "@stencil/core": "https://public-assets.os.wpp.com/stencil/stencil-core-4.2.2.tgz"
     "@types/quill": 1.3.7
-    air-datepicker: 3.4.0
+    air-datepicker: 3.6.0
     extend: ^3.0.2
     highlight-words: 1.2.2
     libphonenumber-js: 1.10.57
     lodash: 4.17.21
+    marked: ^15.0.7
     quill: 1.3.7
+    quilljs-markdown: ^1.2.0
     tippy.js: 6.3.7
-  checksum: 394f16c6cd8e791e4758eaf541e01d7070603794382c8c42e35566702bae9bb26db031abd0d88da16bc04e8190b8ef263295ff81c685945bded8bb9196a30da8
+    turndown: ^7.2.0
+    turndown-plugin-gfm: ^1.0.2
+  checksum: cf564f203b2d6af9e8f7d99992ae398dac8cb8d3cc5602f2928be0571dd4cd8930d4f32faee93922bd98fae8d385126f5d66d767e4889108b95c622097f99b8a
   languageName: node
   linkType: hard
 
-"@wppopen/core@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@wppopen/core@npm:6.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcore%2F6.0.0%2F3268f245148a57a3d2cc47ffb1ca909e25074816"
+"@wppopen/core@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@wppopen/core@npm:9.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcore%2F9.0.0%2Fae2753c2e2e88ff51bab6c7ba9f4c0d2c40d6c58"
   peerDependencies:
-    "@wppopen/components-library": ^1.0.0 || ^2.0.0
-  checksum: 0542dc019ebd21a3112e602f9a7eac508478e3cc0a95a53c019f024925408120ea5fe9e3d0752382f721b3e85a3dce2629b10e5ff0cd7968b80f828ac17ec941
+    "@wppopen/components-library": ^1.0.0 || ^2.0.0 || ^3.0.0
+  checksum: b595f3b2529f728260b35727fa46302aa28d6d526d783a6a7173f25141f780021c04b86217b7e7b4cf3c7d6284459a72b486614517a138db27ac29e53e6f679b
   languageName: node
   linkType: hard
 
-"@wppopen/react@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@wppopen/react@npm:6.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Freact%2F6.0.0%2F567368d872f29f161e1b7891da003544216ef707"
+"@wppopen/react@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@wppopen/react@npm:9.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Freact%2F9.0.0%2F102161b1520fb11fe5e4f31ba4cc58230b040fa9"
   peerDependencies:
-    "@wppopen/core": ^6.0.0
+    "@wppopen/core": ^9.0.0
     react: ^17.0.0 || ^18.0.0
-  checksum: 87e198b8f726747721d98849a9c4d401a4be45fcd020f0940e9621ee4cc6cd37d77b1a8bffdce446a7fb09bba8a65cea3067ae665c523aab3afd2e569a5aced3
+  checksum: eabd0c1ead082c05885fb9b9bf5b0a5ef3e98c6544f43ce461c828d35976a034be0eab31bc956bbca7d5661387af180a23fe5ad6ba1cc0335e498a543d4ab92b
   languageName: node
   linkType: hard
 
@@ -3768,10 +3779,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"air-datepicker@npm:3.4.0":
-  version: 3.4.0
-  resolution: "air-datepicker@npm:3.4.0"
-  checksum: a326fffe723cf545e5deb946f227dff0b3e3c8692c41dc5d0d37a7cf25d817b102fcb4940a3813a8884f27291e7ff10adddeb3941b0ad7ef102e768c732022cb
+"air-datepicker@npm:3.6.0":
+  version: 3.6.0
+  resolution: "air-datepicker@npm:3.6.0"
+  checksum: d6cd72ba097ca0a28a408433b94e5ae5fa6d6a8ef7f82cb162086854dfcd234bd4a0200c9a8964a2b240b4e1f7ee7436f12ee08d572067a5c0a535f73b52e59d
   languageName: node
   linkType: hard
 
@@ -5286,6 +5297,13 @@ __metadata:
   version: 3.30.2
   resolution: "core-js@npm:3.30.2"
   checksum: 73d47e2b9d9f502800973982d08e995bbf04832e20b04e04be31dd7607247158271315e9328788a2408190e291c7ffbefad141167b1e57dea9f983e1e723541e
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.23.5":
+  version: 3.45.1
+  resolution: "core-js@npm:3.45.1"
+  checksum: 674c79e9c58ed923280cd4afbc3bc4c921b8b11bce70d269f1bd98db484e27f0ff436d1de34e198f27065a10386761b39f110309c471f329fe7376ab0fb32bf6
   languageName: node
   linkType: hard
 
@@ -10321,6 +10339,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"marked@npm:^15.0.7":
+  version: 15.0.12
+  resolution: "marked@npm:15.0.12"
+  bin:
+    marked: bin/marked.js
+  checksum: 2ac72fc0bc7ecb47de246e396c7054d311f55379957e4e01796c12d196cb84480e8d53e54948f957a078f9166692fea8b0309fc597f26f855573e7ba5c1ec7eb
+  languageName: node
+  linkType: hard
+
 "mathml-tag-names@npm:^2.0.1, mathml-tag-names@npm:^2.1.3":
   version: 2.1.3
   resolution: "mathml-tag-names@npm:2.1.3"
@@ -12712,6 +12739,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"quilljs-markdown@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "quilljs-markdown@npm:1.2.0"
+  dependencies:
+    core-js: ^3.23.5
+    regenerator-runtime: ^0.13.9
+  checksum: b969545bbc81a268e1ddd8747ab3c2a55d9de48491556b254db79aa60a233670290eb193e70b6a52173c13c599f5d1c9dd034460bb119159f4e0226b48fb3096
+  languageName: node
+  linkType: hard
+
 "raf@npm:^3.4.1":
   version: 3.4.1
   resolution: "raf@npm:3.4.1"
@@ -12757,10 +12794,10 @@ __metadata:
     "@types/node": ^18.19.28
     "@types/react": ^18.2.73
     "@types/react-dom": ^18.2.23
-    "@wppopen/components-library": 2.18.0
-    "@wppopen/components-library-react": 2.18.0
-    "@wppopen/core": ^6.0.0
-    "@wppopen/react": ^6.0.0
+    "@wppopen/components-library": 3.1.1
+    "@wppopen/components-library-react": 3.1.1
+    "@wppopen/core": 9.0.0
+    "@wppopen/react": 9.0.0
     craco-plugin-single-spa-application: ^2.0.1
     eslint-config-prettier: ^9.1.0
     eslint-plugin-prettier: ^5.1.3
@@ -15312,6 +15349,22 @@ __metadata:
   peerDependencies:
     typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   checksum: 1843f4c1b2e0f975e08c4c21caa4af4f7f65a12ac1b81b3b8489366826259323feb3fc7a243123453d2d1a02314205a7634e048d4a8009921da19f99755cdc48
+  languageName: node
+  linkType: hard
+
+"turndown-plugin-gfm@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "turndown-plugin-gfm@npm:1.0.2"
+  checksum: 18191dc18d731ec16bb1f1a477af6471ce2acf152b882a7eccef8e0101e09628fec0f8499f352f0a291ce798f1f30d799b5a72bd5d2cde30a2a28070de24495c
+  languageName: node
+  linkType: hard
+
+"turndown@npm:^7.2.0":
+  version: 7.2.1
+  resolution: "turndown@npm:7.2.1"
+  dependencies:
+    "@mixmark-io/domino": ^2.2.0
+  checksum: 44629c982a05c5e70a15aa1736acdd7dec59bc072275681960e380ad7d9bf6d9076dcbdd349f47da11b308984a3ab96485ef0cd1b9c6c350d88b206f0dab6e58
   languageName: node
   linkType: hard
 
