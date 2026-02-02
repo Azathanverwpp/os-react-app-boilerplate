@@ -20,7 +20,10 @@ export function App() {
   const { osContext } = useOs()
 
   return (
-    <BrowserRouter basename={osContext.baseUrl || undefined}>
+    <BrowserRouter
+      future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+      basename={osContext.baseUrl || undefined}
+    >
       <div className={styles.container}>
         <Header />
         <div className={styles.pageContent}>

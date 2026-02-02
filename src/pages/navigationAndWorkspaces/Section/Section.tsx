@@ -5,10 +5,7 @@ import styles from 'pages/navigationAndWorkspaces/Section/Section.module.scss'
 
 export interface Props {
   title: string
-  data: {
-    title: string
-    value: string | null
-  }[]
+  data: { title: string; value: string | null }[]
 }
 
 export const Section = ({ title, data }: Props) => (

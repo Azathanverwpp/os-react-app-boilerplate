@@ -21,10 +21,7 @@ export const NavigationAndWorkspacesPage = () => {
 
   const workspaceData = [
     { title: 'Selected workspace', value: selectedWorkspace?.name || 'None' },
-    {
-      title: 'Type',
-      value: workspaceTypeLabel || '-',
-    },
+    { title: 'Type', value: workspaceTypeLabel || '-' },
     { title: 'Workspace azId', value: selectedWorkspace?.azId || '-' },
   ]
 
