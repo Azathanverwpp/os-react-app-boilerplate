@@ -43,7 +43,7 @@ export const WelcomePage = () => {
     <>
       <div className={styles.intro}>
         <WppTypography type="2xl-heading" tag="h3" className={styles.introTitle}>
-          Welcome to the App Boilerplate
+          Welcome to Azath's App
         </WppTypography>
         <WppTypography type="m-body" tag="p">
           Create your own app for WPP Open Platform

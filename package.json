@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "@craco/craco": "^7.1.0",
-    "@wppopen/components-library": "git+https://github.com/WPP-Public/wpp--os--platform-ui-kit.git#v3.4.0",
-    "@wppopen/components-library-react": "git+https://github.com/WPP-Public/wpp--os--platform-ui-kit-react.git#v3.4.0",
+    "@wppopen/components-library": "^3.5.0",
+    "@wppopen/components-library-react": "^3.5.0",
     "@wppopen/core": "9.0.0",
     "@wppopen/react": "9.0.0",
     "craco-plugin-single-spa-application": "^2.0.1",

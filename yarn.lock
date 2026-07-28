@@ -2320,30 +2320,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@maskito/core@npm:3.10.3":
-  version: 3.10.3
-  resolution: "@maskito/core@npm:3.10.3"
-  checksum: 10c0/8b98bcdd8372dbf2d5d11f0792d6b476b5a4674f42443a0b9da82064a81a7fda76f15971145ef6c9f88440ee83ecfb849636edee476a3ce04714d73381473b95
+"@maskito/core@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@maskito/core@npm:5.0.0"
+  checksum: 10c0/0ec24a605b135790f0803eca0159b97ab4b0162338424c589a94174fe1c62457d7a32f0f3c2c6da1ff4f63f7cac0238bf83024e947e245ad75fe44239c39d8fb
   languageName: node
   linkType: hard
 
-"@maskito/kit@npm:3.10.3":
-  version: 3.10.3
-  resolution: "@maskito/kit@npm:3.10.3"
+"@maskito/kit@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@maskito/kit@npm:5.0.0"
   peerDependencies:
-    "@maskito/core": ^3.10.3
-  checksum: 10c0/56c39faa847bc9d819248bc469b3018a68eed7d41d691112b88d22cec82dbaab0149f754768a2c00bc2ac12a1eb293128dbb2b9810d963cafe1d71b869006bbe
+    "@maskito/core": ^5.0.0
+  checksum: 10c0/e8956dc7e0f0d2965f14b79cb54ce6b8f188b3d98423a8278f03837bdf9fa2a8b67e167eae61225f4b935adae041abd711bc9f6552c899e92be4de4733e3ea88
   languageName: node
   linkType: hard
 
-"@maskito/phone@npm:3.10.3":
-  version: 3.10.3
-  resolution: "@maskito/phone@npm:3.10.3"
+"@maskito/phone@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@maskito/phone@npm:5.0.0"
   peerDependencies:
-    "@maskito/core": ^3.10.3
-    "@maskito/kit": ^3.10.3
+    "@maskito/core": ^5.0.0
+    "@maskito/kit": ^5.0.0
     libphonenumber-js: ">=1.0.0"
-  checksum: 10c0/b98d3d97e378d560e3840171758119a3db371f82a76b4a2e45458b16902d1aba5cb28694796f54398a8869d006003e57eef93f697426374d754a36f79795c894
+  checksum: 10c0/76121855c9e7f549f0027c260ae2537c1150da8ff82a6411c45f6865979f73b872289f22d2cdbef0561575534d1fcbb60f8e8cf6871d839eb93cfc45450c14d4
   languageName: node
   linkType: hard
 
@@ -3743,26 +3743,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wppopen/components-library-react@git+https://github.com/WPP-Public/wpp--os--platform-ui-kit-react.git#v3.4.0":
-  version: 3.4.0
-  resolution: "@wppopen/components-library-react@https://github.com/WPP-Public/wpp--os--platform-ui-kit-react.git#commit=15fc8d73ac096c01a4f254e78bf598cf505eda5e"
+"@wppopen/components-library-react@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "@wppopen/components-library-react@npm:3.5.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcomponents-library-react%2F3.5.0%2F7161ee24bdde38f267846ebf4b9dbfeac8cce31e"
   dependencies:
     tslib: "npm:2.4.0"
   peerDependencies:
-    "@wppopen/components-library": 3.4.0
+    "@wppopen/components-library": 3.5.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-  checksum: 10c0/eb9ec272ef379fe08e1f0f29b3535511adf5fc56d5d99458aa7a49191d02b74fd00d1f3489bbb149123580ba52b02844465d81a8f364ff5871c9862f1dedb608
+  checksum: 10c0/9e570556e038069899f3bcd485ee5ae537c27af049a8089ee2877f679fbb039be9717da44842e69dcd2576b2dada45dd66178e4bb3753d4e5fbb00b8822ce81c
   languageName: node
   linkType: hard
 
-"@wppopen/components-library@git+https://github.com/WPP-Public/wpp--os--platform-ui-kit.git#v3.4.0":
-  version: 3.4.0
-  resolution: "@wppopen/components-library@https://github.com/WPP-Public/wpp--os--platform-ui-kit.git#commit=84125f7de8b22d9808494f9026bdcff7c0f12d99"
+"@wppopen/components-library@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "@wppopen/components-library@npm:3.5.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40wppopen%2Fcomponents-library%2F3.5.0%2Fa41043ab286f38940d786225aacfb6050563da42"
   dependencies:
-    "@maskito/core": "npm:3.10.3"
-    "@maskito/kit": "npm:3.10.3"
-    "@maskito/phone": "npm:3.10.3"
+    "@maskito/core": "npm:5.0.0"
+    "@maskito/kit": "npm:5.0.0"
+    "@maskito/phone": "npm:5.0.0"
     "@stencil/core": "https://public-assets.os.wpp.com/stencil/stencil-core-4.2.2.tgz"
     "@types/quill": "npm:1.3.7"
     air-datepicker: "npm:3.6.0"
@@ -3776,7 +3776,7 @@ __metadata:
     tippy.js: "npm:6.3.7"
     turndown: "npm:^7.2.0"
     turndown-plugin-gfm: "npm:^1.0.2"
-  checksum: 10c0/fc76dc794092f402a14b67a2d694e41fd63f11664f6240faa692e2cffa3adf2ed014f85a11c687962153f60946ce45917c02d890444ca857822d33167fe1cf2d
+  checksum: 10c0/140728659e1becb494ce447db5740bc56d0912f2250cd395602a3c3bde0e20efb83ef0e51fbc48e124875327429e7cac755713e349f21d5bbca60c63ffc8b6ac
   languageName: node
   linkType: hard
 
@@ -4675,11 +4675,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.9.0":
-  version: 2.9.19
-  resolution: "baseline-browser-mapping@npm:2.9.19"
+  version: 2.11.0
+  resolution: "baseline-browser-mapping@npm:2.11.0"
   bin:
-    baseline-browser-mapping: dist/cli.js
-  checksum: 10c0/569928db78bcd081953d7db79e4243a59a579a34b4ae1806b9b42d3b7f84e5bc40e6e82ae4fa06e7bef8291bf747b33b3f9ef5d3c6e1e420cb129d9295536129
+    baseline-browser-mapping: dist/cli.cjs
+  checksum: 10c0/03176d4d1c85a156971ae328241e9216288d59f46a5195acc95c41f1477b2e791185d0f68128788c311fd0fb0b93b321170d65c1ef7d9bcab096677c844365de
   languageName: node
   linkType: hard
 
@@ -5048,9 +5048,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001760":
-  version: 1.0.30001766
-  resolution: "caniuse-lite@npm:1.0.30001766"
-  checksum: 10c0/cecc8f9a3758c486fc68434a3cca5f4ca7077db5ac9cdb1689786abf63c4aa9891bf70f2df2c3e549d5e284e8da36a218d0e131ebb26dd59280bc99db49640f6
+  version: 1.0.30001806
+  resolution: "caniuse-lite@npm:1.0.30001806"
+  checksum: 10c0/9442c8afff0968e9b2ce0104a7340c1ce4a5c09f469ccb9eef10d25712ea0afe542486e5318c697c70dd502f988cfc04eaa1c9438c92ac3bcf4d708a2a17bee1
   languageName: node
   linkType: hard
 
@@ -13228,8 +13228,8 @@ __metadata:
     "@types/node": "npm:^25.0.10"
     "@types/react": "npm:^18.2.73"
     "@types/react-dom": "npm:^18.2.23"
-    "@wppopen/components-library": "git+https://github.com/WPP-Public/wpp--os--platform-ui-kit.git#v3.4.0"
-    "@wppopen/components-library-react": "git+https://github.com/WPP-Public/wpp--os--platform-ui-kit-react.git#v3.4.0"
+    "@wppopen/components-library": "npm:^3.5.0"
+    "@wppopen/components-library-react": "npm:^3.5.0"
     "@wppopen/core": "npm:9.0.0"
     "@wppopen/react": "npm:9.0.0"
     craco-plugin-single-spa-application: "npm:^2.0.1"
