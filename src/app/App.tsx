@@ -5,6 +5,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import styles from 'app/App.module.scss'
 import { Header } from 'app/header/Header'
 import { NavigationAndWorkspacesPage } from 'pages/navigationAndWorkspaces/NavigationAndWorkspacesPage'
+import { UserSearchPage } from 'pages/userSearch/UserSearchPage'
 import { WelcomePage } from 'pages/welcome/WelcomePage'
 
 export function App() {
@@ -30,6 +31,7 @@ export function App() {
           <Routes>
             <Route path="/welcome" element={<WelcomePage />} />
             <Route path="/navigation-workspaces" element={<NavigationAndWorkspacesPage />} />
+            <Route path="/user-search" element={<UserSearchPage />} />
             <Route index element={<Navigate replace to="/welcome" />} />
           </Routes>
         </div>

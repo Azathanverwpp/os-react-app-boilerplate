@@ -10,6 +10,7 @@ import logoUrl from 'assets/logo.svg'
 const baseNavigation: NavigationState[] = [
   { label: 'Welcome', value: 'welcome' },
   { label: 'Navigation and Workspaces', value: 'navigation-workspaces' },
+  { label: 'User Search', value: 'user-search' },
 ]
 
 export const Header = () => {

@@ -32,7 +32,7 @@ const stylelintPlugin = {
 module.exports = {
   devServer: {
     port: 8500,
-    open: ['https://wpp.wpp-stage.os-dev.io/local/8500/sjs/main/welcome'],
+    open: ['https://media.os.wpp.com/local/8500/sjs/main/welcome'],
   },
   plugins: [
     singleSpaAppPlugin,
